@@ -92,6 +92,7 @@ main .content .content-description .title {
 main .content .content-description p {
   font-size: 1.2rem;
   line-height: 1.7rem;
+  margin-right: 1rem;
 }
 
 main .content .content-description button {
@@ -144,7 +145,7 @@ main aside .social-media {
 }
 
 main aside .social-media ul {
-  padding: 1.5rem 1rem;
+  padding: 1rem 1rem;
   border-top-left-radius: 12px;
   border-bottom-left-radius: 12px;
   margin: auto;
@@ -154,19 +155,15 @@ main aside .social-media ul {
   flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 main aside .social-media li {
   list-style-type: none;
 }
 
-main aside .social-media li a {
-  text-decoration: none;
-  font-size: 1.5rem;
-  color: white;
-
-  transition: all 0.1s ease-in-out;
+main aside .social-media li img {
+  width: 40px;
 }
 
 main aside .social-media li a:hover {
@@ -206,6 +203,7 @@ main aside .social-media li a:hover {
   }
 }
 
+
 footer {
   background-color: #2d3e50;
   width: auto;
@@ -222,8 +220,8 @@ footer p {
   }
 
   header.navbar-container .nav-list ul {
-    flex-direction: row;
-    column-gap: 1rem;
+    flex-direction: column;
+    gap: 1rem;
   }
 
   main .content {
